@@ -113,6 +113,9 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+button {
+    cursor: pointer;
+}
 
 /* site-header part started */
 .site-header {
@@ -225,13 +228,14 @@ ul {
     font-style: normal;
     border: none;
     outline: none;
+    cursor: pointer;
     font-weight: 700;
     line-height: normal;
 }
 
 .virtual__button:hover {
-    background-color: orange;
-    color: aquamarine;
+    background-color: transparent;
+    color: darkturquoise;
     transition: all 0.3s;
     transform: scale(1.1);
 }
@@ -247,6 +251,11 @@ ul {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+}
+
+.out__list {
+    display: flex;
+    align-items: center;
 }
 
 .out__first {
@@ -369,6 +378,7 @@ ul {
     text-align: center;
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
     line-height: normal;
     border-radius: 55px;
     border: 1.4px solid #458ff6;
@@ -454,23 +464,6 @@ ul {
     background: #000;
 }
 
-.leadning__box {
-    width: 201.918px;
-    padding: 17px 51px 16px 51px;
-    border-radius: 55px;
-    border: 1.4px solid #458ff6;
-}
-
-.leadning__link {
-    width: 98.94px;
-    text-decoration: none;
-    color: #458ff6;
-    font-family: "Mulish";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
 .leadning__item:nth-child(even) > ul {
     flex-direction: row-reverse;
 }
@@ -533,3 +526,39 @@ ul {
     transform: scale(1.1);
 }
 /* leadning__section part finished */
+
+/* article__section part started */
+.article__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 73px 118px;
+    background: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+.article__title {
+    width: 539px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 34px;
+    font-family: "Mulish";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+}
+
+.article__line {
+    width: 58.9px;
+    min-height: 2px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.article__secend-image-item{
+    
+}
+/* article__section part finished */
