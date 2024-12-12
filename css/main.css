@@ -528,6 +528,10 @@ button {
 /* leadning__section part finished */
 
 /* article__section part started */
+.article__section {
+    padding-bottom: 251px;
+}
+
 .article__wrapper {
     display: flex;
     justify-content: space-between;
@@ -558,7 +562,198 @@ button {
     background: #fff;
 }
 
-.article__secend-image-item{
-    
+.article__secend-image-item {
+    width: 149px;
+    min-height: 149px;
+    display: inline-block;
+    background-image: url("../images/oldman.png");
+    background-size: 149px 149px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.article__list {
+    display: flex;
+    justify-content: space-between;
+    align-content: inherit;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.article__item {
+    margin-right: 166px;
+}
+
+.article__first {
+    margin-left: 30px;
+}
+
+.article__secend-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.article__item-title {
+    width: 193.041px;
+    min-height: 29.589px;
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: #fff;
+    font-family: "Mulish";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article__item-box {
+    width: 125.529px;
+    min-height: 24.305px;
+    flex-shrink: 0;
+}
+
+.article__item-info {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: "Mulish";
+    font-size: 18px;
+    font-style: normal;
+    margin: 0;
+    font-weight: 400;
+    line-height: normal;
+}
+.article__item-info-box {
+    width: 403.316px;
+    min-height: 119px;
+    flex-shrink: 0;
+}
+
+.article__secend-item-info {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Mulish";
+    font-size: 19px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
 }
 /* article__section part finished */
+
+/* check__section part started */
+.check__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.check__first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.check__title {
+    width: 462px;
+    min-height: 56px;
+    color: #000;
+    font-family: "Mulish";
+    font-size: 36px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+
+.check__line {
+    display: block;
+    width: 56px;
+    min-height: 2px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background: #000;
+}
+
+.check__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.check__item {
+    width: 380px;
+    min-height: 516px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 84px;
+    padding-bottom: 30px;
+    background: #fff;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+
+.doctorroom {
+    margin-bottom: 30px;
+}
+
+.check__list-title {
+    width: 251px;
+    min-height: 64px;
+    color: #000;
+    font-family: "Mulish";
+    font-size: 21px;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 32px; /* 152.381% */
+}
+
+.check__list-info-box {
+    width: 266px;
+    margin-bottom: 18px;
+}
+
+.check__list-info {
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 16px;
+    display: inline-block;
+    font-style: normal;
+    margin: 0;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+}
+
+.check__list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4089ed;
+    font-family: "Mulish";
+    font-size: 17px;
+    font-style: normal;
+    margin-right: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 28px; /* 164.706% */
+}
+/* check__section part finished */
